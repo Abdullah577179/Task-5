@@ -1,6 +1,6 @@
 .horizontal{
     margin: 0px;
-    border-bottom: 5px solid grey;
+    /* border-bottom: 5px solid grey; */
     /* width: 350px; */
    
 }
@@ -13,9 +13,8 @@
 .bg-img{
     background-image: url(./images/form_bg.jpg);
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:cover;  
     height: 100%;
-
 }
 .questions {
     background-color: brown;
@@ -29,3 +28,25 @@
 .confidential{
     transform: rotate(8deg);
 }
+.banner{
+    height: 80%;
+}
+.banner-1{
+    height: 70%
+}
+.DUI, .case, .blog, .credentials, .area, .testimonials, .areas, .us{
+    color:  #750f0f;
+}
+.click-btn{
+    border-top: 3px solid grey;
+}
+.button-show {
+    border-color: var(--border-color) !important;
+    border-width: 2px !important;
+}
+.dui-main{
+    border-left: 12px solid #611915;
+  }
+  .menu-area-here{
+    opacity: 0.4;
+  }
