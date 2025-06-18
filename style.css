@@ -165,7 +165,7 @@ button img{
   border: none;
   background-color: transparent;
 }
-@media(max-width:992px){
+/* @media(max-width:992px){
   .btn-f3{
    
     margin-bottom: 20px;
@@ -233,4 +233,4 @@ button img{
   .text-sec{
     width: 98%!important;
   }
-}
+} */
