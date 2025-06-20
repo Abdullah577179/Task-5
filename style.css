@@ -1,6 +1,10 @@
 body{
     overflow-x: hidden;
+      border-left: 20px solid gray;
+  border-right: 20px solid gray;
+  border-bottom: 20px solid rgb(70, 70, 70);
 }
+
 :root{
     --btn-color:#750f0f;
     --btn-active:#676767;
@@ -76,7 +80,7 @@ body{
     text-align:inherit;  
   }
 .clients{
-    padding:0px 84px 0px 0px ;
+    /* padding:0px 84px 0px 0px ; */
     margin: 0;
 }
 .butt{
@@ -97,4 +101,75 @@ shadow{
 }
 .col-2{
     width: 10%;
+}
+.btn-f1{
+  border-top: 1px solid rgb(70, 68, 68);
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+}
+.btn-f1 button{
+  margin-right: 0.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+.btn-f2{
+  margin-block: 2vw;
+  border-top: 1px solid rgb(70, 68, 68);
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.btn-f2 button{
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+button img{
+margin: 0.3vw 0.2vw;
+margin-top: 0.4vw;
+}
+.btn-f3{
+margin-block: 2vw;
+  border-top: 2px solid rgb(70, 68, 68);
+  width: 80%;
+display: block;
+margin: auto;
+}
+.btn-f3 button{
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 14px;
+  
+}
+ .box2 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+@media(max-width:768px){
+  .box1 , .box2 , .box3 , .box4 , .box5 , .box6{
+    display: block;
+    margin: auto;
+  }
+  .box2 {
+    border: none;
+  }
 }
